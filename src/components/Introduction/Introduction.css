@@ -1,0 +1,60 @@
+#introduction {
+  background-color: #fff;
+  padding: 20px 10px;
+
+}
+
+.intro-wrapper {
+  border-top: 1px solid #bababa;
+  border-bottom: 2px solid #dfe1e3;
+}
+
+.intro-container {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  left: 0px;
+  animation: intro 1s ease 1 alternate;
+}
+
+.intro-container h2 {
+  margin-top: 4rem;
+}
+
+.intro-container p {
+  text-align: justify;
+}
+
+.intro-statistics-container {
+  width: 50%;
+  margin: 6rem auto;
+  position: relative;
+  animation: statistics 3s ease 1s 1 alternate;
+}
+
+.intro-statistics-container__item {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+.intro-statistics-container__item img {
+  width: 90%;
+}
+
+.intro-statistics-container__item p {
+  border-bottom: 1px solid #bababa;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 0.8rem;
+}
+
+@keyframes intro {
+  from {left: 1000px;}
+  to {left: 0px;}
+}
+
+@keyframes statistics {
+  from {width: 0}
+  to {width: 50%;}
+}

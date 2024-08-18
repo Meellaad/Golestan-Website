@@ -1,0 +1,35 @@
+#media {
+  background-color: white;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.media-container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.media-item {
+  display: inline-block;
+  width: 31%;
+  height: 100%;
+  /* margin: 0 0.5rem; */
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mid {
+  margin: 0 1.5%;
+}
+
+.media-video-container {}
+
+.media-video-container iframe {
+  width: 100%;
+  height: 12rem;
+}
+
+.media-video-info {
+  text-align: justify;
+  padding: 1rem 2rem 2rem;
+}

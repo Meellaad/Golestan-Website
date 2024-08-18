@@ -1,0 +1,55 @@
+.social-banner {
+  background-color: #125153;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1.5rem solid #e8d69d;
+}
+
+.social-title-container {
+  padding: 15rem 0;
+}
+
+.social-title-container p:first-of-type {
+  color: #d5ece1;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #0a787c;
+  padding-bottom: 0.5rem;
+}
+
+#gsrtitle {
+  color: #00d8df;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+#gsrtitle span {
+  font-size: 2rem;
+  color: #049da2;
+}
+
+.social-title-container p:last-of-type {
+  color: #bcbec0;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.social-image-container {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+}
+
+.social-info {
+  width: 40%;
+  margin: 10rem auto 7rem;
+  text-align: justify;
+
+}
+
+.social-info button {
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+}
+
+

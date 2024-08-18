@@ -1,0 +1,88 @@
+/* General Styles */
+main {
+  padding-top: 6rem;
+}
+
+button {
+  font-family: inherit;
+  background-color: #fff;
+  color: #808182;
+  outline: none;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ec1c24;
+  color: #fff;
+}
+
+p {
+  color: #898989;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+h2 {
+  color: #ff0001;;
+  font-size: 1.2rem;
+}
+
+span {
+  color:#ff0001;
+}
+
+/* Introduction Products */
+.product-banner {
+  position: relative;
+}
+
+.product-image-container {
+  border-bottom: 1.5rem solid #e8d69d;
+  padding: 0;
+  height: 50vh;
+}
+
+.product-image-container img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 0;
+}
+
+.product-title-container {
+  position: absolute;
+  background-color: #ec1c24;
+  color: #fff;
+  right: 30%;
+  top: 77%;
+  padding: 0 2rem 0 6rem;
+}
+
+.product-title-container h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.product-title-container p {
+  color: #fff;
+}
+
+.devider {
+  margin: 2rem 1rem;
+  border-top: 2px solid #dfe1e3;
+}
+
+.product-info-container {
+  width: 40%;
+  margin: 2rem auto;
+  text-align: justify;
+}
+
+.product-info-container button {
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
