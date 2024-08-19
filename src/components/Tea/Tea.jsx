@@ -1,11 +1,13 @@
 import React from "react";
 
+import timg from "../../../public/images/image3-new.jpg"
+
 const Tea = () => {
   return (
     <section className="intro-product">
       <div className="product-banner">
         <div className="product-image-container">
-          <img src="../../../public/images/image3-new.jpg" alt="tea" />
+          <img src={timg} alt="tea" />
         </div>
         <div className="product-title-container">
           <h1>چای گلستان</h1>

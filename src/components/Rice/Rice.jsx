@@ -1,11 +1,13 @@
 import React from "react";
 
+import rimg from "../../../public/images/image2-new-1.jpg"
+
 const Rice = () => {
   return (
     <section className="intro-product">
       <div className="product-banner">
         <div className="product-image-container">
-          <img src="../../../public/images/image2-new-1.jpg" alt="rice" />
+          <img src={rimg} alt="rice" />
         </div>
         <div className="product-title-container">
           <h1>برنج گلستان</h1>

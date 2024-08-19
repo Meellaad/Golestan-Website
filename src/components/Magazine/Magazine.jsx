@@ -2,6 +2,10 @@ import React from "react";
 
 import "./Magazine.css";
 
+import respic2 from "../../../public/images/recipe-pic2.jpg";
+import respic3 from "../../../public/images/recipe-pic3.jpg";
+import respic1 from "../../../public/images/recipe-pic1.jpg";
+
 const Magazine = () => {
   return (
     <section id="magazine">
@@ -13,10 +17,7 @@ const Magazine = () => {
         <div className="magazine-items">
           <div className="magazine-item">
             <div className="magazine-image-container">
-              <img
-                src="../../../public/images/recipe-pic2.jpg"
-                alt="Spagetti"
-              />
+              <img src={respic2} alt="Spagetti" />
             </div>
             <div className="magazine-info-container">
               <h2>ماکارانی با سبزیجات</h2>
@@ -30,7 +31,7 @@ const Magazine = () => {
           </div>
           <div className="magazine-item midd">
             <div className="magazine-image-container">
-              <img src="../../../public/images/recipe-pic3.jpg" alt="Soup" />
+              <img src={respic3} alt="Soup" />
             </div>
             <div className="magazine-info-container">
               <h2>سوپ مکزیکی</h2>
@@ -44,10 +45,7 @@ const Magazine = () => {
           </div>
           <div className="magazine-item">
             <div className="magazine-image-container">
-              <img
-                src="../../../public/images/recipe-pic1.jpg"
-                alt="Chilaquiles"
-              />
+              <img src={respic1} alt="Chilaquiles" />
             </div>
             <div className="magazine-info-container">
               <h2>چیلاکیله</h2>

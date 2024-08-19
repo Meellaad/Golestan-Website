@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Header.css";
 
+import logofr from "../../../public/images/logo-fr.png";
+
 const Header = () => {
   return (
     <header className="main-header">
@@ -11,7 +13,9 @@ const Header = () => {
             <a href="#">صفحه‌ی اصلی</a>
           </li>
           <li className="main-nav__item dropdown">
-            <a href="javascript:void(0)" class="dropbtn">شرکت گلستان</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              شرکت گلستان
+            </a>
             <div className="dropdown-content">
               <a href="">معرفی شرکت</a>
               <a href="">تاریخچه گلستان</a>
@@ -23,7 +27,9 @@ const Header = () => {
             </div>
           </li>
           <li className="main-nav__item dropdown">
-            <a href="javascript:void(0)" class="dropbtn">محصولات</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              محصولات
+            </a>
             <div className="dropdown-content">
               <a href="">چای</a>
               <a href="">ناتس</a>
@@ -40,7 +46,9 @@ const Header = () => {
             </div>
           </li>
           <li className="main-nav__item dropdown">
-            <a href="javascript:void(0)" class="dropbtn">وبلاگ</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              وبلاگ
+            </a>
             <div className="dropdown-content">
               <a href="">مجله گلستان</a>
               <a href="">فرهنگ غذایی</a>
@@ -56,7 +64,9 @@ const Header = () => {
             <a href="#">استخدام</a>
           </li>
           <li className="main-nav__item dropdown">
-            <a href="javascript:void(0)" class="dropbtn">تماس با ما</a>
+            <a href="javascript:void(0)" class="dropbtn">
+              تماس با ما
+            </a>
             <div className="dropdown-content">
               <a href="">دفتر مرکزی</a>
               <a href="">صدای مصرف کنندگان</a>
@@ -69,7 +79,7 @@ const Header = () => {
         </ul>
         <div className="logo-container">
           <a href="#" className="main-header__logo">
-            <img src="../../../public/images/logo-fr.png" alt="logo" />
+            <img src={logofr} alt="logo" />
           </a>
         </div>
       </nav>

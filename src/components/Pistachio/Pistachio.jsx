@@ -1,11 +1,13 @@
 import React from "react";
 
+import pimg from "../../../public/images/image4-new.jpg";
+
 const Pistachio = () => {
   return (
     <section className="intro-product">
       <div className="product-banner">
         <div className="product-image-container">
-          <img src="../../../public/images/image4-new.jpg" alt="pistachio" />
+          <img src={pimg} alt="pistachio" />
         </div>
         <div className="product-title-container">
           <h1>پسته گلستان</h1>

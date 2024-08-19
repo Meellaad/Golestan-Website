@@ -2,6 +2,11 @@ import React from "react";
 
 import "./Introduction.css";
 
+import sticon4 from "../../../public/images/statistics-icon-4.png"
+import sticon3 from "../../../public/images/statistics-icon-3.png"
+import sticon2 from "../../../public/images/statistics-icon-2.png"
+import sticon1 from "../../../public/images/statistics-icon-1.png"
+
 const Introduction = () => {
   return (
     <section id="introduction">
@@ -36,25 +41,25 @@ const Introduction = () => {
         <div className="intro-statistics-container">
           <div className="intro-statistics-container__item">
             <div className="intro-statistics-container__image-container">
-              <img src="../../../public/images/statistics-icon-4.png" alt="" />
+              <img src={sticon4} alt="" />
             </div>
             <p>سرمایه انسانی</p>
           </div>
           <div className="intro-statistics-container__item">
             <div>
-              <img src="../../../public/images/statistics-icon-3.png" alt="" />
+              <img src={sticon3} alt="" />
             </div>
             <p>مراكز فروش</p>
           </div>
           <div className="intro-statistics-container__item">
             <div>
-              <img src="../../../public/images/statistics-icon-2.png" alt="" />
+              <img src={sticon2} alt="" />
             </div>
             <p>محصولات گلستان</p>
           </div>
           <div className="intro-statistics-container__item">
             <div>
-              <img src="../../../public/images/statistics-icon-1.png" alt="" />
+              <img src={sticon1} alt="" />
             </div>
             <p>مشتریان گلستان</p>
           </div>

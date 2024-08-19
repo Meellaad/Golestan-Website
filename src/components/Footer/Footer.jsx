@@ -2,6 +2,11 @@ import React from "react";
 
 import "./Footer.css";
 
+import icon1 from "../../../public/images/footer-icon1.png";
+import icon2 from "../../../public/images/footer-icon2.png";
+import icon3 from "../../../public/images/footer-icon3.png";
+import icon4 from "../../../public/images/footer-icon4.png";
+
 const Footer = () => {
   return (
     <footer id="main-footer">
@@ -43,7 +48,7 @@ const Footer = () => {
         <div className="footer-links-container">
           <div className="footer-link-container">
             <div className="footer-image-container">
-              <img src="../../../public/images/footer-icon1.png" alt="Glass" />
+              <img src={icon1} alt="Glass" />
             </div>
             <h3 className="footer-links-header">چای گلستان</h3>
             <ul className="footer-links">
@@ -66,7 +71,7 @@ const Footer = () => {
           </div>
           <div className="footer-link-container">
             <div className="footer-image-container">
-              <img src="../../../public/images/footer-icon4.png" alt="Cup" />
+              <img src={icon4} alt="Cup" />
             </div>
             <h3 className="footer-links-header">تی بگ گلستان</h3>
             <ul className="footer-links">
@@ -89,7 +94,7 @@ const Footer = () => {
           </div>
           <div className="footer-link-container">
             <div className="footer-image-container">
-              <img src="../../../public/images/footer-icon3.png" alt="Bowl" />
+              <img src={icon3} alt="Bowl" />
             </div>
             <h3 className="footer-links-header">ادويه گلستان</h3>
             <ul className="footer-links">
@@ -112,7 +117,7 @@ const Footer = () => {
           </div>
           <div className="footer-link-container">
             <div className="footer-image-container">
-              <img src="../../../public/images/footer-icon2.png" alt="Pot" />
+              <img src={icon2} alt="Pot" />
             </div>
             <h3 className="footer-links-header">حبوبات گلستان</h3>
             <ul className="footer-links">

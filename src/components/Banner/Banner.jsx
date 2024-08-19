@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Banner.css";
 
+import logo from "../../../public/images/tea-pic1.png";
+
 const Banner = () => {
   return (
     <section id="banner">
@@ -17,7 +19,7 @@ const Banner = () => {
           <button>اطلاعات بیشتر</button>
         </div>
         <div className="banner-image-container">
-          <img src="../../../public/images/tea-pic1.png" alt="tea" />
+          <img src={logo} alt="tea" />
         </div>
       </div>
     </section>

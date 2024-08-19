@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Social.css";
 
+import hosimg from "../../../public/images/csr-pic1.jpg";
+
 const Social = () => {
   return (
     <section id="social">
@@ -14,7 +16,7 @@ const Social = () => {
             </p>
             <p>Mahdi Hospital</p>
             <div className="social-image-container">
-              <img src="../../../public/images/csr-pic1.jpg" alt="Hospital" />
+              <img src={hosimg} alt="Hospital" />
             </div>
           </div>
         </div>
